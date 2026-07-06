@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Hub Guru | Smart Shopping Starts Here</title>
 
+<meta name="description" content="Find the best Amazon deals, product reviews and buying guides.">
+
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/animations.css">
 
 </head>
 
@@ -14,154 +20,205 @@
 <header>
 
 <div class="logo">
+
 <h1>Hub Guru</h1>
+
 <p>Smart Shopping Starts Here</p>
+
 </div>
 
 <nav>
+
 <a href="index.html">Home</a>
-<a href="about.html">About</a>
+
+<a href="products/electronics.html">Electronics</a>
+
+<a href="products/laptops.html">Laptops</a>
+
+<a href="products/fashion.html">Fashion</a>
+
+<a href="products/kitchen.html">Kitchen</a>
+
+<a href="products/beauty.html">Beauty</a>
+
+<a href="blog.html">Blog</a>
+
 <a href="contact.html">Contact</a>
-<a href="privacy.html">Privacy</a>
-<a href="disclaimer.html">Disclaimer</a>
+
 </nav>
 
 </header>
 
 <section class="hero">
 
-<h2>Discover Amazing Products</h2>
+<h2>Discover the Best Products Online</h2>
 
-<p>Best Amazon Deals, Honest Reviews & Buying Guides</p>
+<p>
+
+Compare products, read honest reviews and find the best Amazon deals.
+
+</p>
 
 <input
 type="text"
 id="searchBox"
-placeholder="Search Products..."
-class="search">
+class="search"
+placeholder="Search products...">
 
-<button onclick="searchProduct()" class="btn">
+<button
+class="btn"
+onclick="searchProduct()">
+
 Search
+
 </button>
-
-<br><br>
-
-<a href="#" class="btn">Start Shopping</a>
 
 </section>
 
-<section class="products">
+<section class="slider">
+
+<div class="slide">
+
+<img
+src="https://via.placeholder.com/1200x450/111111/FFD700?text=Hub+Guru+Deals"
+alt="Hub Guru Banner">
+
+</div>
+
+  </section>
+
+<section class="categories">
+
+<h2>Shop by Category</h2>
+
+<div class="products">
 
 <div class="card">
 <h2>📱 Electronics</h2>
-<p>Best smartphones, laptops and gadgets.</p>
-<a href="electronics.html" class="btn">View Products</a>
+<p>Latest smartphones, gadgets and accessories.</p>
+<a href="products/electronics.html" class="btn">Explore</a>
 </div>
 
 <div class="card">
 <h2>💻 Laptops</h2>
-<p>Top laptops for students, office and gaming.</p>
-<a href="laptops.html" class="btn">View Products</a>
+<p>Top laptops for work, study and gaming.</p>
+<a href="products/laptops.html" class="btn">Explore</a>
 </div>
 
 <div class="card">
-<h2>🏠 Home & Kitchen</h2>
-<p>Kitchen appliances and home essentials.</p>
-<a href="kitchen.html" class="btn">Explore</a>
+<h2>🏠 Kitchen</h2>
+<p>Best kitchen appliances and home essentials.</p>
+<a href="products/kitchen.html" class="btn">Explore</a>
 </div>
 
 <div class="card">
 <h2>👕 Fashion</h2>
 <p>Trending clothes, shoes and accessories.</p>
-<a href="fashion.html" class="btn">Shop Now</a>
+<a href="products/fashion.html" class="btn">Explore</a>
 </div>
 
 <div class="card">
 <h2>💄 Beauty</h2>
 <p>Skincare, makeup and grooming products.</p>
-<a href="beauty.html" class="btn">Explore</a>
+<a href="products/beauty.html" class="btn">Explore</a>
 </div>
 
 <div class="card">
 <h2>💪 Fitness</h2>
-<p>Workout equipment and fitness accessories.</p>
-<a href="fitness.html" class="btn">View Products</a>
+<p>Fitness equipment and workout accessories.</p>
+<a href="products/fitness.html" class="btn">Explore</a>
 </div>
 
-<div class="card">
-<h2>🎮 Gaming</h2>
-<p>Gaming laptops, keyboards and accessories.</p>
-<a href="gaming.html" class="btn">Explore</a>
-</div>
-
-<div class="card">
-<h2>⌚ Smart Watches</h2>
-<p>Latest smartwatches and fitness bands.</p>
-<a href="smartwatch.html" class="btn">View Products</a>
 </div>
 
 </section>
 
-<section class="hero">
-<h2>Why Choose Hub Guru?</h2>
+<section class="featured">
 
-<p>
-✔ Honest Product Reviews<br>
-✔ Daily Best Deals<br>
-✔ Amazon Buying Guides<br>
-✔ Trusted Recommendations<br>
-✔ Mobile Friendly Website
-</p>
+<h2>Featured Products</h2>
 
-<a href="#" class="btn">Read Latest Reviews</a>
-
-</section>
-
-<section class="products">
+<div class="products">
 
 <div class="card">
 <img src="https://via.placeholder.com/250x250?text=Smartphone" alt="Smartphone">
-<h2>Best Smartphone 2026</h2>
-<p>Powerful performance, excellent camera and long battery life.</p>
+<h3>Best Smartphone</h3>
+<p>Excellent camera, battery life and performance.</p>
 <a href="https://www.amazon.in" target="_blank" class="btn">Buy on Amazon</a>
 </div>
 
 <div class="card">
 <img src="https://via.placeholder.com/250x250?text=Laptop" alt="Laptop">
-<h2>Top Laptop</h2>
-<p>Perfect for work, study and gaming.</p>
+<h3>Top Laptop</h3>
+<p>Perfect for students and professionals.</p>
 <a href="https://www.amazon.in" target="_blank" class="btn">Buy on Amazon</a>
 </div>
 
 <div class="card">
 <img src="https://via.placeholder.com/250x250?text=Headphones" alt="Headphones">
-<h2>Wireless Headphones</h2>
-<p>Premium sound quality with active noise cancellation.</p>
+<h3>Wireless Headphones</h3>
+<p>Premium sound with noise cancellation.</p>
 <a href="https://www.amazon.in" target="_blank" class="btn">Buy on Amazon</a>
 </div>
 
-<div class="card">
-<img src="https://via.placeholder.com/250x250?text=Smart+Watch" alt="Smart Watch">
-<h2>Smart Watch</h2>
-<p>Track your fitness, calls and notifications.</p>
-<a href="https://www.amazon.in" target="_blank" class="btn">Buy on Amazon</a>
 </div>
+
+</section>
+
+  <section class="hero">
+
+<h2>Why Choose Hub Guru?</h2>
+
+<p>
+✔ Honest Product Reviews<br>
+✔ Best Amazon Deals<br>
+✔ Buying Guides<br>
+✔ Trusted Recommendations<br>
+✔ Mobile Friendly
+</p>
+
+<a href="blog.html" class="btn">Read Our Blog</a>
 
 </section>
 
 <footer>
 
+<div class="footer-content">
+
 <h2>Hub Guru</h2>
 
-<p>Helping you make smarter shopping decisions every day.</p>
+<p>
+Helping you make smarter shopping decisions every day.
+</p>
 
-<p>Amazon Affiliate Website | Product Reviews | Buying Guides</p>
+<p>
+Amazon Affiliate Website | Product Reviews | Buying Guides
+</p>
 
-<p>© 2026 Hub Guru. All Rights Reserved.</p>
+<nav>
+
+<a href="about.html">About</a> |
+
+<a href="contact.html">Contact</a> |
+
+<a href="privacy.html">Privacy Policy</a> |
+
+<a href="disclaimer.html">Disclaimer</a>
+
+</nav>
+
+<p>
+
+© 2026 Hub Guru. All Rights Reserved.
+
+</p>
+
+</div>
 
 </footer>
 
 <script src="js/script.js"></script>
+<script src="js/search.js"></script>
+<script src="js/slider.js"></script>
 
 </body>
 </html>
