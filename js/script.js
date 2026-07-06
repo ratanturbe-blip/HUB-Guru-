@@ -1,13 +1,12 @@
-// Hub Guru JavaScript
+function searchProduct() {
 
-document.addEventListener("DOMContentLoaded", () => {
-    console.log("Welcome to Hub Guru!");
+let input = document.getElementById("searchBox").value;
 
-    const buttons = document.querySelectorAll(".btn");
+if(input==""){
+alert("Please enter a product name");
+return;
+}
 
-    buttons.forEach(button => {
-        button.addEventListener("click", function () {
-            alert("This feature will be available soon!");
-        });
-    });
-});
+window.open("https://www.amazon.in/s?k="+encodeURIComponent(input), "_blank");
+
+}
